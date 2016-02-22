@@ -5,6 +5,45 @@ var feedDict = require('./feeds.json').remote;
 var feedNames = Object.keys(feedDict);
 var feeds = Object.keys(feedDict).map(function(x) {return feedDict[x]});
 
+var boringList = require('./dict.js');
+
+var boring = function(word) {
+  return boringList.indexOf(word.toLowerCase()) !== -1;
+}
+
+var isWord = function(word) {
+  return /^[a-z]+$/i.test(word);
+}
+
+var dict = {};
+var dictInsert = function(word, link) {
+  if (isWord(word) && !boring(word)) {
+    if (!dict[word]) dict[word] = [];
+    dict[word].push(link);
+  }
+};
+
+var wordSort = function(a, b) {
+  return a.count - b.count;
+}
+var topVal = function(val) {
+  var counts = Object.keys(dict).map(function(w) {
+    return {word: w, count: dict[w].length};
+  });
+  counts.sort(wordSort).reverse();
+  return counts.slice(0, val).map(function(i) {
+    return i;
+  });
+};
+
+var topTen = topVal.bind(this, 15);
+
+var dictWork = function(newItem) {
+  newItem.title.split(' ').forEach(function(w) {
+    dictInsert(w, newItem.link);
+  });
+}
+
 var checkNewsInterval;
 
 var REFRESH_DELAY = 15000;
@@ -51,12 +90,16 @@ function storeArticleDates(err, article) {
     return;
   }
   
+  dictWork(article);
+
   var articleDate = article.date;
   if (mostRecentDateFromFeed[article.meta.title] == null ||
       mostRecentDateFromFeed[article.meta.title] < articleDate) {
     mostRecentDateFromFeed[article.meta.title] = articleDate;
     mostRecentDateRunning[article.meta.title] = articleDate;
   }
+
+  console.log(topTen());
 }
 
 function emitArticleIfNew(err, article) {
@@ -77,11 +120,14 @@ function emitArticleIfNew(err, article) {
     var newItem = constructSmallArticle(article);
     io.emit('nxws items', JSON.stringify([newItem]));
 
+    dictWork(newItem);
+
     if (newItem.date > mostRecentDateRunning[newItem.metatitle])
       mostRecentDateRunning[newItem.metatitle] = newItem.date;
 
   }
   
+  console.log(topTen());
 }
 
 function emitArticle(socket) {
