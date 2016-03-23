@@ -31,12 +31,10 @@ var topVal = function(val) {
     return {word: w, count: dict[w].length};
   });
   counts.sort(wordSort).reverse();
-  return counts.slice(0, val).map(function(i) {
-    return i;
-  });
+  return counts.slice(0, val);
 };
 
-var topTen = topVal.bind(this, 15);
+var topTen = topVal.bind(this, 10);
 
 var dictWork = function(newItem) {
   newItem.title.split(' ').forEach(function(w) {
@@ -70,10 +68,10 @@ function constructSmallArticle(article) {
     metatitle: article.meta.title,
     metalink: article.meta.link
   };
-  
+
   if (newItem.metalink == null)
     newItem.metalink = newItem.link;
-  
+
   if (newItem.date > new Date())
     newItem.date = new Date();
 
@@ -85,11 +83,11 @@ function storeArticleDates(err, article) {
     console.error(err);
     return;
   }
-  
+
   if (article.hasOwnProperty('end')) {
     return;
   }
-  
+
   dictWork(article);
 
   var articleDate = article.date;
@@ -107,26 +105,26 @@ function emitArticleIfNew(err, article) {
     console.error(err);
     return;
   }
-  
+
   if (article.hasOwnProperty('end')) {
     mostRecentDateFromFeed[article.end] = mostRecentDateRunning[article.end];
     return;
   }
-  
+
   var lastArticleSentDate = mostRecentDateFromFeed[article.meta.title];
   if (article.date > lastArticleSentDate) {
     console.log('Emitting:', article.meta.title, '-', article.title, '-', article.date);
 
     var newItem = constructSmallArticle(article);
-    io.emit('nxws items', JSON.stringify([newItem]));
-
     dictWork(newItem);
+    io.emit('nxws items', JSON.stringify([newItem]));
+    io.emit('nxws top10', JSON.stringify(topTen()));
 
     if (newItem.date > mostRecentDateRunning[newItem.metatitle])
       mostRecentDateRunning[newItem.metatitle] = newItem.date;
 
   }
-  
+
   console.log(topTen());
 }
 
@@ -136,13 +134,14 @@ function emitArticle(socket) {
       console.error(err);
       return;
     }
-  
+
     if (article.hasOwnProperty('end')) {
       return;
     }
     var newItem = constructSmallArticle(article);
     socket.emit('nxws items', JSON.stringify([newItem]));
-  } 
+    socket.emit('nxws top10', JSON.stringify(topTen()));
+  }
 }
 
 /* Server */
@@ -164,17 +163,17 @@ io.on('connection', function(socket) {
 	console.log("User connected", socket.id);
   emitNumberOfUsers(numberOfUsers);
   emitSourceList(feedNames);
-  
+
   if (process.env.EMIT_NOW) {
     console.log('emitting now');
     fetchFeeds(emitArticle(socket));
   }
-  
+
   socket.on('disconnect', function() {
     numberOfUsers--;
   	console.log("User disconnected", socket.id);
     emitNumberOfUsers(numberOfUsers);
-  });    
+  });
 });
 
 /* Broadcasting */
