@@ -117,7 +117,7 @@ function emitArticleIfNew(err, article) {
 
     var newItem = constructSmallArticle(article);
     dictWork(newItem);
-    io.emit('nxws items', JSON.stringify([newItem]));
+    io.emit('nxws items', JSON.stringify(newItem));
     io.emit('nxws top10', JSON.stringify(topTen()));
 
     if (newItem.date > mostRecentDateRunning[newItem.metatitle])
@@ -139,7 +139,7 @@ function emitArticle(socket) {
       return;
     }
     var newItem = constructSmallArticle(article);
-    socket.emit('nxws items', JSON.stringify([newItem]));
+    socket.emit('nxws items', JSON.stringify(newItem));
     socket.emit('nxws top10', JSON.stringify(topTen()));
   }
 }
