@@ -100,5 +100,7 @@ commonWords = ["the",
 "us",
 "is",
 "says",
+"are",
+"off",
 ];
 module.exports = commonWords;
