@@ -1,18 +1,18 @@
+"use strict";
+
 var FeedParser = require('feedparser');
 
 var RSSFetch = function() {};
 
 function fetchFeed(x) {
-  that = this;
+  const that = this;
   // console.log("Fetching", x);
 	this.stream(x)
 	.on('error', function(err) {
     that.callback(err);
 	})
 	.pipe(new FeedParser())
-  .on('meta', function() {
-    // console.log('meta', {date: this.meta.pubdate, title: this.meta.title});
-  })
+  .on('meta', function() { })
   .on('readable', function() {
 		var item;
 		while (item = this.read()) {
@@ -20,11 +20,10 @@ function fetchFeed(x) {
 		}
 	})
   .on('end', function() {
-    // console.log('Completed', x);
-    that.callback(null, {end: this.meta.title});
+    that.callback(null, false);
   })
   .on('error', function(err) {
-    that.callback(err);
+    that.callback(err + " -> " + x);
   });
 }
 
