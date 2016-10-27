@@ -14,7 +14,6 @@ module.exports = class Storage {
 
 	DBResolve(DBMethod, item, ...params) {
 		return new Promise((resolve, reject) => {
-			console.log(DBMethod, item, ...params)
 			DBMethod(...params, (err, result) => {
 				if (err) {
 					return reject(err);
@@ -25,68 +24,37 @@ module.exports = class Storage {
 	}
 
 	addItemToDBSortedSet(item, key) {
-		// return this.DBResolve(this.store.zadd.bind(this.store), item, key, (new Date(item.date)).getTime(), item.itemID);
+		const score = (new Date(item.date)).getTime();
+		const member = item.itemID;
 
-		return new Promise((resolve, reject) => {
-			this.store.zadd(key, (new Date(item.date)).getTime(), item.itemID, (err, result) => {
-				if (err) {
-					console.log('rejected');
-					return reject(err);
-				} else {
-					return resolve(item);
-				}
-			});
-		});
-	}
+		return this.DBResolve(this.store.zadd.bind(this.store),	item,
+							  key, score, member);
 
-	addItemToDBSet(item) {
-		return new Promise((resolve, reject) => {
-			this.store.sadd(item.itemID, JSON.stringify(item), (err, result) => {
-				if (err) {
-					console.log('rejected');
-					return reject(err);
-				} else {
-					return resolve(item);
-				}
-			});
-		});
 	}
 
 	addItemToDBHash(item) {
-		return new Promise((resolve, reject) => {
+		const hash = item.itemID;
 
-			let a = [];
-			for (const key of Object.keys(item)) {
-				console.log(key, item, item[key]);
-				a.push(key)
-				a.push(item[key] || "");
-			}
+		let fieldValueZip = [];
+		for (const key of Object.keys(item)) {
+			fieldValueZip.push(key)
+			fieldValueZip.push(item[key] || "n/a"); //TODO Hmm. Update this.
+		}
 
-			this.store.hmset(item.itemID, a, (err, result) => {
-				if (err) {
-					console.log('rejected');
-					return reject(err);
-				} else {
-					return resolve(item);
-				}
-			});
-		});
+		return this.DBResolve(this.store.hmset.bind(this.store), item,
+							  hash, ...fieldValueZip);
 	}	
 
 	breakIntoTags(item) {
 		let ps = [];
-
 		for (const word of item.title.split(' ')) {
 			ps.push(this.addItemToDBSortedSet(item, word.toLowerCase()));
 		}
-
 		return ps;
 	}
 
 	addToMainIndex(item) {
-		// this.store.set(item.itemID, JSON.stringify(item));
 		return this.addItemToDBHash(item);
-		// return item;
 	}
 
 	add(item) {
@@ -94,8 +62,6 @@ module.exports = class Storage {
 
 		const masterTag = this.addItemToDBSortedSet(item, '_');
 		const otherTags = this.breakIntoTags(item);
-
-		let that = this;
 
 		return Promise.all([masterTag, ...otherTags])
 			.then(values => {
@@ -114,6 +80,6 @@ module.exports = class Storage {
 	}
 
 	getAll(cb) {
-		this.store.get()
+		return true;
 	}
 }
