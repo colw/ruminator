@@ -12,7 +12,21 @@ module.exports = class Storage {
 		});
 	}
 
+	DBResolve(DBMethod, item, ...params) {
+		return new Promise((resolve, reject) => {
+			console.log(DBMethod, item, ...params)
+			DBMethod(...params, (err, result) => {
+				if (err) {
+					return reject(err);
+				}
+				return resolve(item);
+			});
+		});
+	}
+
 	addItemToDBSortedSet(item, key) {
+		// return this.DBResolve(this.store.zadd.bind(this.store), item, key, (new Date(item.date)).getTime(), item.itemID);
+
 		return new Promise((resolve, reject) => {
 			this.store.zadd(key, (new Date(item.date)).getTime(), item.itemID, (err, result) => {
 				if (err) {
@@ -25,6 +39,40 @@ module.exports = class Storage {
 		});
 	}
 
+	addItemToDBSet(item) {
+		return new Promise((resolve, reject) => {
+			this.store.sadd(item.itemID, JSON.stringify(item), (err, result) => {
+				if (err) {
+					console.log('rejected');
+					return reject(err);
+				} else {
+					return resolve(item);
+				}
+			});
+		});
+	}
+
+	addItemToDBHash(item) {
+		return new Promise((resolve, reject) => {
+
+			let a = [];
+			for (const key of Object.keys(item)) {
+				console.log(key, item, item[key]);
+				a.push(key)
+				a.push(item[key] || "");
+			}
+
+			this.store.hmset(item.itemID, a, (err, result) => {
+				if (err) {
+					console.log('rejected');
+					return reject(err);
+				} else {
+					return resolve(item);
+				}
+			});
+		});
+	}	
+
 	breakIntoTags(item) {
 		let ps = [];
 
@@ -36,8 +84,9 @@ module.exports = class Storage {
 	}
 
 	addToMainIndex(item) {
-		this.store.set(item.itemID, JSON.stringify(item));
-		return item;
+		// this.store.set(item.itemID, JSON.stringify(item));
+		return this.addItemToDBHash(item);
+		// return item;
 	}
 
 	add(item) {
@@ -56,9 +105,9 @@ module.exports = class Storage {
 	}
 	
 	get(id, cb) {
-		this.store.get(id, (err, reply) => {
+		this.store.get(id, (err, result) => {
 			if (!err) {
-				return cb(JSON.parse(reply));
+				return cb(JSON.parse(result));
 			}
 			console.log('Err:', err);
 		});
