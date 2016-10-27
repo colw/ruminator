@@ -6,7 +6,6 @@ var io = require('socket.io')(http);
 app.set('port', (process.env.PORT || 9000));
 
 var storage = new (require('./storage'))();
-// var fetchfeed = require('./fetchfeed.js');
 var nxws = new (require('./fetchfeed.js'));
 var types = require('./types');
 var feedDict = require('./feeds.json').remote;
@@ -22,7 +21,14 @@ function storeItem(err, item) {
     const article = types.makeArticle(item);
     storage.add(article);
   }
+}
 
+function sendAllArticles(socket) {
+  storage.getAll().then(list => {
+    for (const item of list) {
+      socket.emit('nxws items', JSON.stringify(item));
+    }
+  });
 }
 
 nxws.fetchSourceFromStream(feeds, request, storeItem);
@@ -32,13 +38,6 @@ http.listen(app.get('port'), function() {
   console.log("NXWS Feeder is running at localhost:" + app.get('port'));
 });
 
-function sendAllArticles(socket) {
-  storage.getAll(list => {
-    for (const item of list) {
-      socket.emit('nxws items', JSON.stringify(item));
-    }
-  })
-}
 
 /* Socket */
 io.on('connection', function(socket) {

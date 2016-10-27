@@ -43,18 +43,25 @@ module.exports = class Storage {
 
 		return this.DBResolve(this.store.hmset.bind(this.store), item,
 							  hash, ...fieldValueZip);
-	}	
+	}
+
+	breakStringIntoTags(sentence) {
+		var words = [];
+		var re = /([\w+]+)/g;
+		let result = '';
+		while ((result = re.exec(sentence)) !== null) {
+			words.push(result[0])
+		}
+		// console.log(words);
+		return words;
+	}
 
 	breakIntoTags(item) {
 		let ps = [];
-		for (const word of item.title.split(' ')) {
+		for (const word of this.breakStringIntoTags(item.title)) {
 			ps.push(this.addItemToDBSortedSet(item, word.toLowerCase()));
 		}
 		return ps;
-	}
-
-	addToMainIndex(item) {
-		return this.addItemToDBHash(item);
 	}
 
 	add(item) {
@@ -65,21 +72,46 @@ module.exports = class Storage {
 
 		return Promise.all([masterTag, ...otherTags])
 			.then(values => {
-				this.addToMainIndex(values[0]);
+				this.addItemToDBHash(values[0]);
 			})
 			.catch((err) => {console.log('ERROR:', err)})
 	}
+
+	getSortedSet(id) {
+		return new Promise((resolve, reject) => {
+			console.log
+			this.store.zrange(id, 0, -1, (err, result) => {
+				if (err) {
+					return reject(err);
+				} else {
+					return resolve(result);
+				}
+			});
+		});
+	}
 	
-	get(id, cb) {
-		this.store.get(id, (err, result) => {
-			if (!err) {
-				return cb(JSON.parse(result));
-			}
-			console.log('Err:', err);
+	getHash(id) {
+		return new Promise((resolve, reject) => {
+			console.log
+			this.store.hgetall(id, (err, result) => {
+				if (err) {
+					return reject(err);
+				} else {
+					return resolve(result);
+				}
+			});
 		});
 	}
 
-	getAll(cb) {
-		return true;
+	getAll() {
+		return this.getSortedSet('_')
+			.then(idList => {
+				let newsListPromises = [];
+				// console.log('idList', idList);
+				for (const id of idList) {
+					newsListPromises.push(this.getHash(id));
+				}
+				return Promise.all(newsListPromises);
+			});
 	}
 }
