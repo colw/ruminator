@@ -1,0 +1,661 @@
+<?xml version="1.0"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:nyt="http://www.nytimes.com/namespaces/rss/2.0" version="2.0">
+  <channel>
+    <title>NYT &gt; Home Page</title>
+    <link>http://www.nytimes.com/pages/index.html?partner=rss&amp;emc=rss</link>
+    <atom:link rel="self" type="application/rss+xml" href="http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml"/>
+    <description/>
+    <language>en-us</language>
+    <copyright>Copyright 2016  The New York Times Company</copyright>
+    <lastBuildDate>Wed, 28 Dec 2016 12:58:05 GMT </lastBuildDate>
+    <image>
+      <title>NYT &gt; Home Page</title>
+      <url>https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png</url>
+      <link>http://www.nytimes.com/pages/index.html?partner=rss&amp;emc=rss</link>
+    </image>
+    <item>
+      <title>John Kerry, in a Final, Pointed Plea, Will Outline a Vision of Mideast Peace</title>
+      <link>http://www.nytimes.com/2016/12/27/us/politics/john-kerry-speech-israel-palestinians.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2016/12/27/us/politics/john-kerry-speech-israel-palestinians.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2016/12/27/us/politics/john-kerry-speech-israel-palestinians.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2016/12/28/world/28DIPLO/28DIPLO-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Secretary of State John Kerry with Prime Minister Benjamin Netanyahu of Israel in September in New York. Mr. Netanyahu has clashed with Mr. Kerry and President Obama over settlements.</media:description>
+      <media:credit>Darren Ornitz/Reuters</media:credit>
+      <description>Mr. Kerry will use his remarks to confront Prime Minister Benjamin Netanyahu of Israel after bitterness over a United Nations resolution, a State Department official said.</description>
+      <dc:creator>DAVID E. SANGER</dc:creator>
+      <pubDate>Wed, 28 Dec 2016 01:29:20 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Kerry, John</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Israel</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Palestinians</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Netanyahu, Benjamin</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Obama, Barack</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Israeli Settlements</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States International Relations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">State Department</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+    </item>
+    <item>
+      <title>Jerusalem Postpones Vote on New Housing Ahead of Speech by John Kerry</title>
+      <link>http://www.nytimes.com/2016/12/28/world/middleeast/israel-un-resolution-jerusalem-settlements.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2016/12/28/world/middleeast/israel-un-resolution-jerusalem-settlements.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2016/12/28/world/middleeast/israel-un-resolution-jerusalem-settlements.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2016/12/29/world/29Israel/29Israel-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Construction this week in the settlement of Har Homa in Jerusalem.</media:description>
+      <media:credit>Atef Safadi/European Pressphoto Agency</media:credit>
+      <description>A city government committee canceled a vote on permits for homes in East Jerusalem at the request of Prime Minister Benjamin Netanyahu, Army Radio said.</description>
+      <dc:creator>PETER BAKER</dc:creator>
+      <pubDate>Wed, 28 Dec 2016 11:13:35 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Israeli Settlements</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Security Council (UN)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Kerry, John</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Netanyahu, Benjamin</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Jerusalem (Israel)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States International Relations</category>
+    </item>
+    <item>
+      <title>Russians No Longer Dispute Olympic Doping Operation</title>
+      <link>http://www.nytimes.com/2016/12/27/sports/olympics/russia-doping.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2016/12/27/sports/olympics/russia-doping.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2016/12/27/sports/olympics/russia-doping.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2016/12/28/sports/28DOPING1/28DOPING1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>The Russian Olympic Committee&#x2019;s building in Moscow in 2015. Many of the athletes pictured in the building&#x2019;s hallways have been implicated in this year&#x2019;s doping scandal.</media:description>
+      <media:credit>Pavel Golovkin/Associated Press</media:credit>
+      <description>The officials ended their long denial but insisted that the state had no role in the doping and that it was not responsible for the institutionalized cheating.</description>
+      <dc:creator>REBECCA R. RUIZ</dc:creator>
+      <pubDate>Tue, 27 Dec 2016 21:27:44 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Olympic Games (2014)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Doping (Sports)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Russia</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">International Olympic Committee</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">World Anti-Doping Agency</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">McLaren, Richard (Attorney)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Putin, Vladimir V</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Olympic Games</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Rodchenkov, Grigory</category>
+    </item>
+    <item>
+      <title>John Kerry, Russia, Carrie Fisher: Your Wednesday Briefing</title>
+      <link>http://www.nytimes.com/2016/12/28/briefing/us-briefing-john-kerry-russia-carrie-fisher.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2016/12/28/briefing/us-briefing-john-kerry-russia-carrie-fisher.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2016/12/28/briefing/us-briefing-john-kerry-russia-carrie-fisher.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2016/12/29/world/28USBriefing-Abe2/28USBriefing-Abe2-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>&#x201C;We must never repeat the horrors of war again,&#x201D; Prime Minister Shinzo Abe, center-left, said on Tuesday, <a href="http://www.nytimes.com/2016/12/27/us/politics/pearl-harbor-abe-obama-visit.html">joining President Obama in Pearl Harbor</a>. Mr. Abe offered condolences for the attack that drew the United States into World War II, but he did not apologize.</media:description>
+      <media:credit>Pool photo by Dennis Oda</media:credit>
+      <description>Here&#x2019;s what you need to know to start your day.</description>
+      <dc:creator>JONAH ENGEL BROMWICH</dc:creator>
+      <pubDate>Wed, 28 Dec 2016 12:52:26 GMT</pubDate>
+    </item>
+    <item>
+      <title>New York Today: New York Today: Valerie Goldfein, a New Yorker of the Year</title>
+      <link>http://www.nytimes.com/2016/12/28/nyregion/new-york-todays-new-yorkers-of-the-year-valerie-goldfein.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2016/12/28/nyregion/new-york-todays-new-yorkers-of-the-year-valerie-goldfein.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2016/12/28/nyregion/new-york-todays-new-yorkers-of-the-year-valerie-goldfein.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2016/12/28/nyregion/28nytoday1/28nytoday1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>After beating ovarian cancer, Valerie Goldfein is helping others do the same.</media:description>
+      <media:credit>Josh Ritchie for The New York Times</media:credit>
+      <description>Wednesday: Honoring a model citizen, a midnight run through Central Park, and Good Riddance Day.</description>
+      <dc:creator>ALEXANDRA S. LEVINE</dc:creator>
+      <pubDate>Wed, 28 Dec 2016 11:44:22 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">New York City</category>
+    </item>
+    <item>
+      <title>Rick Perry, as Energy Secretary, May Be Pressed to Resume Nuclear Tests</title>
+      <link>http://www.nytimes.com/2016/12/27/us/politics/trump-rick-perry-nuclear-weapons.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2016/12/27/us/politics/trump-rick-perry-nuclear-weapons.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2016/12/27/us/politics/trump-rick-perry-nuclear-weapons.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2016/12/28/us/28perry-p1/28perry3-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Former Gov. Rick Perry of Texas was involved in helping set up a technology transfer program between Sandia National Laboratories, above, and the University of Texas.</media:description>
+      <media:credit>Sandia National Laboratories, via Associated Press</media:credit>
+      <description>Some experts fear that testing the United States&#x2019; arsenal for the first time since 1992 would risk an arms race. But some worry about whether the weapons still work.</description>
+      <dc:creator>JAMES GLANZ</dc:creator>
+      <pubDate>Wed, 28 Dec 2016 00:54:57 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Nuclear Tests</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Nuclear Weapons</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Stockpiling</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">United States</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Chu, Steven</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Perry, Rick</category>
+    </item>
+    <item>
+      <title>For the Trumps, &#x2018;Made in U.S.A.&#x2019; May Be a Tricky Label to Stitch</title>
+      <link>http://www.nytimes.com/2016/12/28/business/donald-trump-ivanka-clothes-global-trade-overseas-manufacturing.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2016/12/28/business/donald-trump-ivanka-clothes-global-trade-overseas-manufacturing.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2016/12/28/business/donald-trump-ivanka-clothes-global-trade-overseas-manufacturing.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2016/12/28/us/28trumpretail-jp/28trumpretail-jp-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Ivanka Trump items for sale at Saks Off Fifth in New York. Much of her company&#x2019;s clothing line is manufactured overseas.</media:description>
+      <media:credit>Danny Ghitis for The New York Times</media:credit>
+      <description>If President-elect Donald J. Trump makes good on the promise of punishing overseas companies, he will take aim at his own brand, and his daughter&#x2019;s as well.</description>
+      <dc:creator>LAURA M. HOLSON and RACHEL ABRAMS</dc:creator>
+      <pubDate>Wed, 28 Dec 2016 08:00:22 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Shopping and Retail</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Fashion and Apparel</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Ivanka</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Labor and Jobs</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">International Trade and World Market</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Factories and Manufacturing</category>
+    </item>
+    <item>
+      <title>Hospitals in Safety Net Brace for Health Care Law&#x2019;s Repeal</title>
+      <link>http://www.nytimes.com/2016/12/28/health/hospitals-medicaid-obamacare-trump.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2016/12/28/health/hospitals-medicaid-obamacare-trump.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2016/12/28/health/hospitals-medicaid-obamacare-trump.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2016/12/28/science/28HOSPITAL-1/27HOSPITAL2-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Philadelphia skyscrapers seen from the Temple section of North Philadelphia, near Temple University Hospital, one of the most impoverished areas in the nation.</media:description>
+      <media:credit>Mark Makela for The New York Times</media:credit>
+      <description>As the president-elect and Congress prepare to repeal the law, Temple University Hospital and others serving the poor expect harsh consequences.</description>
+      <dc:creator>ABBY GOODNOUGH</dc:creator>
+      <pubDate>Wed, 28 Dec 2016 08:00:23 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Patient Protection and Affordable Care Act (2010)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Hospitals</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Health Insurance and Managed Care</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Law and Legislation</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">United States Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Republican Party</category>
+    </item>
+    <item>
+      <title>Trump Revives Defense of Charitable Foundation Amid Inquiry</title>
+      <link>http://www.nytimes.com/2016/12/27/us/politics/donald-trump-foundation.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2016/12/27/us/politics/donald-trump-foundation.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2016/12/27/us/politics/donald-trump-foundation.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2016/12/28/us/28trumpfoundation/28trumpfoundation-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Donald J. Trump at an event in Hershey, Pa., this month. Mr. Trump said on Saturday that he would shut down his charitable foundation.</media:description>
+      <media:credit>Stephen Crowley/The New York Times</media:credit>
+      <description>The Donald J. Trump Foundation is under investigation by the New York attorney general after it indicated in tax filings that it may have broken rules.</description>
+      <dc:creator>MEGAN TWOHEY and STEVE EDER</dc:creator>
+      <pubDate>Wed, 28 Dec 2016 02:04:23 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Philanthropy</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Schneiderman, Eric T</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Trump, Donald J, Foundation</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Politics and Government</category>
+    </item>
+    <item>
+      <title>Trump Inauguration Security Planners Brace for Wave of Protesters</title>
+      <link>http://www.nytimes.com/2016/12/27/us/politics/donald-trump-inauguration-security.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2016/12/27/us/politics/donald-trump-inauguration-security.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2016/12/27/us/politics/donald-trump-inauguration-security.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2016/12/28/us/28inaugural-1/00inaugural-1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Workers building viewing stands at the Capitol for President-elect Donald J. Trump&#x2019;s inauguration.</media:description>
+      <media:credit>Jonathan Ernst/Reuters</media:credit>
+      <description>Will an unusually rancorous election be capped off by an unusually tense inaugural week in Washington? Security officials worry it may be.</description>
+      <dc:creator>NICHOLAS FANDOS</dc:creator>
+      <pubDate>Tue, 27 Dec 2016 16:39:13 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Inaugurations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+    </item>
+    <item>
+      <title>Economic Policy: Faster Growth? Two Things Trump Supporters Won&#x2019;t Like</title>
+      <link>http://www.nytimes.com/2016/12/28/upshot/faster-growth-two-things-trump-supporters-wont-like.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2016/12/28/upshot/faster-growth-two-things-trump-supporters-wont-like.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2016/12/28/upshot/faster-growth-two-things-trump-supporters-wont-like.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2016/12/28/business/up-growth/up-growth-moth-v2.jpg" medium="image" height="151" width="151"/>
+      <media:description>Matt Grigsby, an engineer at Uber&#x2019;s self-driving startup Otto, during a highway demonstration in San Francisco in August. Self-driving trucks would lift productivity &#x2014; and put people out of work.</media:description>
+      <media:credit>Tony Avelar/Associated Press</media:credit>
+      <description>Productivity through automation and economic dynamism through immigration could hurt blue-collar workers.</description>
+      <dc:creator>NEIL IRWIN</dc:creator>
+      <pubDate>Wed, 28 Dec 2016 12:00:24 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Economy</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Labor and Jobs</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Productivity</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Immigration and Emigration</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Factories and Manufacturing</category>
+    </item>
+    <item>
+      <title>Take a Ride with the Flying Scotsman</title>
+      <link>http://www.nytimes.com/video/travel/100000004701752/take-a-ride-with-the-flying-scotsman.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/video/travel/100000004701752/take-a-ride-with-the-flying-scotsman.html</guid>
+      <description>The Flying Scotsman, a beloved British steam engine, was recently renovated and came out of retirement.</description>
+      <dc:creator/>
+      <pubDate>Wed, 28 Dec 2016 10:01:17 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/des">Engines</category>
+      <category domain="http://www.nytimes.com/namespaces/des">Travel and Vacations</category>
+      <category domain="http://www.nytimes.com/namespaces/nyt_geo">Great Britain</category>
+    </item>
+    <item>
+      <title>Your Daily Mini Crossword</title>
+      <link>http://www.nytimes.com/crosswords/game/mini?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/crosswords/game/mini</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/crosswords/game/mini?partner=rss&amp;emc=rss"/>
+      <description>Solve a bite-size crossword in just a few minutes.</description>
+      <dc:creator/>
+      <pubDate>Thu, 25 Feb 2016 08:18:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>Carrie Fisher, Child of Hollywood and &#x2018;Star Wars&#x2019; Royalty, Dies at 60</title>
+      <link>http://www.nytimes.com/2016/12/27/movies/carrie-fisher-dead-star-wars-princess-leia.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2016/12/27/movies/carrie-fisher-dead-star-wars-princess-leia.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2016/12/27/movies/carrie-fisher-dead-star-wars-princess-leia.html?partner=rss&amp;emc=rss"/>
+      <description>Ms. Fisher channeled her struggles with depression and substance abuse into fiercely comic works, including the novel &#x201C;Postcards From the Edge.&#x201D;</description>
+      <dc:creator>DAVE ITZKOFF</dc:creator>
+      <pubDate>Tue, 27 Dec 2016 21:34:35 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Fisher, Carrie</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Deaths (Obituaries)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Actors and Actresses</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Movies</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Star Wars (Movie)</category>
+    </item>
+    <item>
+      <title>An Appraisal: Carrie Fisher, a Princess, a Rebel and a Brave Comic Voice</title>
+      <link>http://www.nytimes.com/2016/12/27/arts/carrie-fisher-a-princess-a-rebel-and-a-brave-comic-voice.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2016/12/27/arts/carrie-fisher-a-princess-a-rebel-and-a-brave-comic-voice.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2016/12/27/arts/carrie-fisher-a-princess-a-rebel-and-a-brave-comic-voice.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2016/12/28/arts/28FISHERAPPRAISAL/28FISHERAPPRAISAL-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Carrie Fisher and Alec Baldwin in the &#x201C;Rosemary&#x2019;s Baby&#x201D; episode of &#x201C;30 Rock.&#x201D;</media:description>
+      <media:credit>Anne Joyce/NBC</media:credit>
+      <description>She entered popular culture as a princess in peril and endures as something much more complicated and interesting.</description>
+      <dc:creator>A.O. SCOTT</dc:creator>
+      <pubDate>Tue, 27 Dec 2016 23:41:16 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Actors and Actresses</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Fisher, Carrie</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Star Wars (Movie)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">30 Rock (TV Program)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Postcards From the Edge (Book)</category>
+    </item>
+    <item>
+      <title>Fans Tweet About Mental Illness to Honor Carrie Fisher</title>
+      <link>http://www.nytimes.com/2016/12/27/arts/fans-tweet-about-mental-illness-to-honor-carrie-fisher.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2016/12/27/arts/fans-tweet-about-mental-illness-to-honor-carrie-fisher.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2016/12/27/arts/fans-tweet-about-mental-illness-to-honor-carrie-fisher.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2016/12/28/arts/28FISHER-BIPOLARweb/28FISHER-BIPOLARweb-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Carrie Fisher, in 2015 at the Screen Actors Guild Awards in Los Angeles. She was candid about her struggles with bipolar disorder and addiction.</media:description>
+      <media:credit>Mario Anzuoni/Reuters</media:credit>
+      <description>Ms. Fisher was a staunch advocate for people with mental health problems and talked openly about her own struggles with bipolar disorder.</description>
+      <dc:creator>RYAN BURLESON and TARA PARKER-POPE</dc:creator>
+      <pubDate>Wed, 28 Dec 2016 03:13:22 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Fisher, Carrie</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Bipolar Disorder</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Depression (Mental)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Social Media</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Cox, Ana Marie</category>
+    </item>
+    <item>
+      <title>The Checkup: The Cough That Doesn&#x2019;t Go Away</title>
+      <link>http://www.nytimes.com/2016/12/19/well/family/the-cough-that-doesnt-go-away.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2016/12/19/well/family/the-cough-that-doesnt-go-away.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2016/12/19/well/family/the-cough-that-doesnt-go-away.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2016/12/19/well/family/well-family-cough/well-family-cough-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description/>
+      <media:credit>Getty Images</media:credit>
+      <description>The American Academy of Pediatrics recommends against using over-the-counter cough medications in young children.</description>
+      <dc:creator>PERRI KLASS, M.D.</dc:creator>
+      <pubDate>Mon, 19 Dec 2016 11:00:03 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Children and Childhood</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Coughs</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Asthma</category>
+    </item>
+    <item>
+      <title>How to Back Up Your Social Media Feeds</title>
+      <link>http://www.nytimes.com/2016/12/15/technology/personaltech/how-to-back-up-your-social-media-feeds.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2016/12/15/technology/personaltech/how-to-back-up-your-social-media-feeds.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2016/12/15/technology/personaltech/how-to-back-up-your-social-media-feeds.html?partner=rss&amp;emc=rss"/>
+      <description>If you don&#x2019;t want to risk losing your photos and other memories stored online, consider making a copy of your account&#x2019;s contents for safekeeping.</description>
+      <dc:creator>J. D. BIERSDORFER</dc:creator>
+      <pubDate>Wed, 28 Dec 2016 08:48:41 GMT</pubDate>
+    </item>
+    <item>
+      <title>3 Men Made Millions by Hacking Merger Lawyers, U.S. Says</title>
+      <link>http://www.nytimes.com/2016/12/27/business/dealbook/new-york-hacking-law-firms-insider-trading.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2016/12/27/business/dealbook/new-york-hacking-law-firms-insider-trading.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2016/12/27/business/dealbook/new-york-hacking-law-firms-insider-trading.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2016/12/28/business/28DB-INSIDER/28DB-INSIDER-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Preet Bharara, the United States attorney in Manhattan.</media:description>
+      <media:credit>Andrew Kelly/Reuters</media:credit>
+      <description>The authorities in New York charged the Chinese citizens with trading shares of companies they illicitly learned were about to be purchased.</description>
+      <dc:creator>LESLIE PICKER</dc:creator>
+      <pubDate>Wed, 28 Dec 2016 00:13:39 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Cyberattacks and Hackers</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Insider Trading</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Bharara, Preet</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Legal Profession</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Cravath Swaine &amp; Moore</category>
+    </item>
+    <item>
+      <title>H.I.V. Cases Surpass a Million in Russia, but Little Is Done</title>
+      <link>http://www.nytimes.com/2016/12/28/world/europe/russia-hiv-epidemic.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2016/12/28/world/europe/russia-hiv-epidemic.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2016/12/28/world/europe/russia-hiv-epidemic.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2016/12/27/world/28russiahiv/28russiahiv-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Volunteers from the Andrey Rylkov Foundation distributing free needles, condoms and other supplies from a truck in Moscow.</media:description>
+      <media:credit>Max Avdeev for The New York Times</media:credit>
+      <description>A combination of stigma and ignorance, a &#x201C;family values&#x201D; emphasis and government indifference have pushed H.I.V. to epidemic status.</description>
+      <dc:creator>NEIL MacFARQUHAR</dc:creator>
+      <pubDate>Wed, 28 Dec 2016 05:00:24 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Russia</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Acquired Immune Deficiency Syndrome</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Epidemics</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Homosexuality and Bisexuality</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">UNAIDS</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">World Health Organization</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">St Petersburg (Russia)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Moscow (Russia)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Drug Abuse and Traffic</category>
+    </item>
+    <item>
+      <title>Former Student Is Charged in Killings of Ex-Teacher and Their Son</title>
+      <link>http://www.nytimes.com/2016/12/27/nyregion/felicia-barahona-death-isaac-duran.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2016/12/27/nyregion/felicia-barahona-death-isaac-duran.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2016/12/27/nyregion/felicia-barahona-death-isaac-duran.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2016/12/28/nyregion/28TEACHER2/28TEACHER2-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Felicia Barahona and her son, Miguel, in an undated photo. They were found dead in their apartment in Upper Manhattan on Monday.</media:description>
+      <media:credit> </media:credit>
+      <description>The tale of an illicit school relationship took a shocking turn on Tuesday when Isaac Duran Infante was charged with two counts of murder in the deaths of Felicia Barahona and their 4-year-old son.</description>
+      <dc:creator>JOSEPH GOLDSTEIN and AL BAKER</dc:creator>
+      <pubDate>Wed, 28 Dec 2016 02:16:22 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Murders, Attempted Murders and Homicides</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Harlem (Manhattan, NY)</category>
+    </item>
+    <item>
+      <title>Tech Fix: Five Resolutions to Simplify Your Tech Life</title>
+      <link>http://www.nytimes.com/2016/12/28/technology/personaltech/five-resolutions-to-simplify-your-tech-life.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2016/12/28/technology/personaltech/five-resolutions-to-simplify-your-tech-life.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2016/12/28/technology/personaltech/five-resolutions-to-simplify-your-tech-life.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2016/01/20/technology/personaltech/20techfix-illo/20techfix-illo-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description/>
+      <media:credit>Minh Uong/The New York Times</media:credit>
+      <description>Follow these tips to improve the maintenance of your passwords, devices and tech infrastructure. Also, shop smarter and reduce waste in 2017.</description>
+      <dc:creator>BRIAN X. CHEN</dc:creator>
+      <pubDate>Wed, 28 Dec 2016 10:56:25 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Computers and the Internet</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Mobile Applications</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Computer Security</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Smartphones</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Cyberattacks and Hackers</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Prices (Fares, Fees and Rates)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Waste Materials and Disposal</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Best BUY Company Inc</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Camel Camel Camel (Cosmic Shovel Inc)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">LastPass.com</category>
+    </item>
+    <item>
+      <title>California Today</title>
+      <link>http://www.nytimes.com/newsletters/california-today?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/newsletters/california-today</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/newsletters/california-today?partner=rss&amp;emc=rss"/>
+      <description>The news and stories that matter to Californians (and anyone else interested in the state). Sign up to get it by email.</description>
+      <dc:creator/>
+      <pubDate>Thu, 06 Oct 2016 13:26:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>Christmas Revelers Leave 16 Tons of Trash on Australian Beach</title>
+      <link>http://www.nytimes.com/2016/12/28/world/australia/coogee-beach-trash-sydney-christmas.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2016/12/28/world/australia/coogee-beach-trash-sydney-christmas.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2016/12/28/world/australia/coogee-beach-trash-sydney-christmas.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2016/12/29/world/29AUSTRALIA-1/29AUSTRALIA-1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Bondi Beach in Sydney, Australia, on Christmas Day, where alcohol had already been prohibited. A raucous party down the shore at Coogee Beach has led to a total ban there, too, for the rest of the summer.</media:description>
+      <media:credit>David Gray/Reuters</media:credit>
+      <description>More than 10,000 people in a Sydney suburb made a huge mess, prompting a local council to ban alcohol on the beach for the rest of the Australian summer.</description>
+      <dc:creator>BRETT COLE</dc:creator>
+      <pubDate>Wed, 28 Dec 2016 11:12:52 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Australia</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Alcoholic Beverages</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Beaches</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Waste Materials and Disposal</category>
+    </item>
+    <item>
+      <title>National Biotechnology Panel Faces New Conflict of Interest Questions</title>
+      <link>http://www.nytimes.com/2016/12/27/business/national-academies-biotechnology-conflicts.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2016/12/27/business/national-academies-biotechnology-conflicts.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2016/12/27/business/national-academies-biotechnology-conflicts.html?partner=rss&amp;emc=rss"/>
+      <description>A committee is under fire for how its members were selected. Several have financial ties to biotech businesses, potentially giving short shrift to health and environmental worries.</description>
+      <dc:creator>STEPHANIE STROM</dc:creator>
+      <pubDate>Tue, 27 Dec 2016 22:37:54 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Conflicts of Interest</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Biotechnology and Bioengineering</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Appointments and Executive Changes</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">National Academies of Sciences, Engineering and Medicine</category>
+    </item>
+    <item>
+      <title>&#x2018;Abandoned&#x2019; in New Jersey, Chris Christie Returns to a Changed Landscape</title>
+      <link>http://www.nytimes.com/2016/12/27/nyregion/abandoned-in-new-jersey-chris-christie-returns-to-a-changed-landscape.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2016/12/27/nyregion/abandoned-in-new-jersey-chris-christie-returns-to-a-changed-landscape.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2016/12/27/nyregion/abandoned-in-new-jersey-chris-christie-returns-to-a-changed-landscape.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2016/12/27/nyregion/00christie1/00christie1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Gov. Chris Christie of New Jersey spoke at a news conference about renovations to the State House Rotunda in Trenton, N.J., last month. The proposed renovations would cost $300 million at a time when the state has severe debt.</media:description>
+      <media:credit>Bryan Anselm for The New York Times</media:credit>
+      <description>After months of humiliation on the campaign trail, the governor came home to find angry voters and a State Legislature unwilling to support his agenda.</description>
+      <dc:creator>KATE ZERNIKE and PATRICK McGEEHAN</dc:creator>
+      <pubDate>Tue, 27 Dec 2016 10:00:20 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Elections, Governors</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Law and Legislation</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">State Legislatures</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Presidential Election of 2016</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Polls and Public Opinion</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">George Washington Bridge Scandal (2013)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Christie, Christopher J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">New Jersey</category>
+    </item>
+    <item>
+      <title>Japanese Leader Offers Condolences in Visit to Pearl Harbor</title>
+      <link>http://www.nytimes.com/2016/12/27/us/politics/pearl-harbor-abe-obama-visit.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2016/12/27/us/politics/pearl-harbor-abe-obama-visit.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2016/12/27/us/politics/pearl-harbor-abe-obama-visit.html?partner=rss&amp;emc=rss"/>
+      <description>Joining President Obama at the site of the attack that drew the United States into World War II, Prime Minister Shinzo Abe said, &#x201C;We must never repeat the horrors of war again.&#x201D;</description>
+      <dc:creator>MICHAEL S. SCHMIDT</dc:creator>
+      <pubDate>Tue, 27 Dec 2016 23:34:57 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Pearl Harbor (Hawaii)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Abe, Shinzo</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Obama, Barack</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States International Relations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Japan</category>
+    </item>
+    <item>
+      <title>In Bahrain, Arabs and Jews Gather (and Dance) at a Hanukkah Celebration</title>
+      <link>http://www.nytimes.com/2016/12/27/world/middleeast/bahrain-hanukkah-arabs-jews.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2016/12/27/world/middleeast/bahrain-hanukkah-arabs-jews.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2016/12/27/world/middleeast/bahrain-hanukkah-arabs-jews.html?partner=rss&amp;emc=rss"/>
+      <description>Video of the gathering in the Muslim-majority monarchy, whose king has sanctioned celebrations of the Jewish holiday, appeared on YouTube.</description>
+      <dc:creator>RUSSELL GOLDMAN</dc:creator>
+      <pubDate>Tue, 27 Dec 2016 21:09:00 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Hanukkah</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Arabs</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Jews and Judaism</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Bahrain</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Khalifa, Hamad Bin Isa al-</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Hamas</category>
+    </item>
+    <item>
+      <title>What in the World: Berlin Attraction Reveals an Uneasy Phenomenon: Hitler Sells</title>
+      <link>http://www.nytimes.com/2016/12/28/world/what-in-the-world/berlin-attraction-reveals-an-uneasy-phenomenon-hitler-sells.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2016/12/28/world/what-in-the-world/berlin-attraction-reveals-an-uneasy-phenomenon-hitler-sells.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2016/12/28/world/what-in-the-world/berlin-attraction-reveals-an-uneasy-phenomenon-hitler-sells.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2016/12/22/world/wit-germany-bunker2/wit-germany-bunker2-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>A replica of Hitler&#x2019;s bunker in Berlin. It was built about a mile from the original site by a private company, Historiale, which also runs the Berlin Story Museum next door.</media:description>
+      <media:credit>Gordon Welters for The New York Times</media:credit>
+      <description>A commercial firm has recreated the bunker where Hitler committed suicide in 1945.</description>
+      <dc:creator>ALISON SMALE</dc:creator>
+      <pubDate>Wed, 28 Dec 2016 10:00:23 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Holocaust and the Nazi Era</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Berlin (Germany)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Hitler, Adolf</category>
+    </item>
+    <item>
+      <title>As U.K. Tightens Voting Rules, Critics Say Labour and the Poor Will Suffer</title>
+      <link>http://www.nytimes.com/2016/12/27/world/europe/uk-voting-rules.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2016/12/27/world/europe/uk-voting-rules.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2016/12/27/world/europe/uk-voting-rules.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2016/12/28/world/28Britain/28Britain-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>A polling station in London in June. Changes to voting rules will be used first for local elections in 18 areas in May 2018.</media:description>
+      <media:credit>Andrew Testa for The New York Times</media:credit>
+      <description>The government announced plans to fight voter fraud by requiring voters to show official ID, tightening rules on absentee ballots and preventing political activists from handling such ballots.</description>
+      <dc:creator>STEVEN ERLANGER</dc:creator>
+      <pubDate>Tue, 27 Dec 2016 17:23:52 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Voter Registration and Requirements</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Elections</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Absentee Voting</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Frauds and Swindling</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Great Britain</category>
+    </item>
+    <item>
+      <title>On Soccer: Bob Bradley Is Out in England. Round Up the Usual Replacements.</title>
+      <link>http://www.nytimes.com/2016/12/27/sports/soccer/bob-bradley-fired-swansea-city.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2016/12/27/sports/soccer/bob-bradley-fired-swansea-city.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2016/12/27/sports/soccer/bob-bradley-fired-swansea-city.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2016/12/28/sports/28BRADLEY1/28BRADLEY1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Bob Bradley on Oct. 22. &#x201C;With the club going through such a tough time, we have to try and find the answers to get ourselves out of trouble,&#x201D; Swansea City&#x2019;s chairman said of his firing.</media:description>
+      <media:credit>Ben Hoskins/Getty Images</media:credit>
+      <description>Bradley, the first American to lead a team in England&#x2019;s Premier League, was fired by Swansea after winning only two of his 11 games with the club.</description>
+      <dc:creator>RORY SMITH</dc:creator>
+      <pubDate>Tue, 27 Dec 2016 23:06:25 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Soccer</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Bradley, Bob (1958- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Coaches and Managers</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Swansea City (Soccer Team)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Crystal Palace (Soccer Team)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">English Premier League</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Allardyce, Sam (1954- )</category>
+    </item>
+    <item>
+      <title>A Song for Bill de Blasio Sounds a Sour Note for Watchdogs</title>
+      <link>http://www.nytimes.com/2016/12/27/nyregion/a-song-for-bill-de-blasio-sounds-a-sour-note-for-watchdogs.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2016/12/27/nyregion/a-song-for-bill-de-blasio-sounds-a-sour-note-for-watchdogs.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2016/12/27/nyregion/a-song-for-bill-de-blasio-sounds-a-sour-note-for-watchdogs.html?partner=rss&amp;emc=rss"/>
+      <description>A video on the mayor&#x2019;s City Hall Twitter account uses two Broadway stars to promote his accomplishments. Some say it is too much like a campaign ad.</description>
+      <dc:creator>WILLIAM NEUMAN</dc:creator>
+      <pubDate>Wed, 28 Dec 2016 00:07:42 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Gracie Mansion (Manhattan, NY)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Twitter</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Citizens Union</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Iglehart, James Monroe</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">McCray, Chirlane</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">de Blasio, Bill</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Broadway (Manhattan, NY)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Jenna Ushkowitz</category>
+    </item>
+    <item>
+      <title>As Hopes for European Unity Dim, New E.U. Headquarters Are Glowing</title>
+      <link>http://www.nytimes.com/2016/12/27/world/europe/as-hopes-for-european-unity-dim-new-eu-headquarters-are-glowing.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2016/12/27/world/europe/as-hopes-for-european-unity-dim-new-eu-headquarters-are-glowing.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2016/12/27/world/europe/as-hopes-for-european-unity-dim-new-eu-headquarters-are-glowing.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2016/12/14/world/14Brussels1/14Brussels1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>The new European Union headquarters, the Europa, in Brussels. Ministers will move in shortly after the New Year and European Union leaders are expected to hold their first meeting there in March.</media:description>
+      <media:credit>Geert Vanden Wijngaert/Associated Press</media:credit>
+      <description>European leaders will meet in the bloc&#x2019;s new home, an illuminated orb, in March, at a time when the union&#x2019;s survival is being openly discussed.</description>
+      <dc:creator>JAMES KANTER</dc:creator>
+      <pubDate>Tue, 27 Dec 2016 14:30:18 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">European Union</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Brussels (Belgium)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">International Relations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">European Sovereign Debt Crisis (2010- )</category>
+    </item>
+    <item>
+      <title>School Parade in Taiwan Featuring Swastikas and Nazis Unleashes Uproar</title>
+      <link>http://www.nytimes.com/2016/12/27/world/asia/taiwan-nazi-hitler-parade.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2016/12/27/world/asia/taiwan-nazi-hitler-parade.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2016/12/27/world/asia/taiwan-nazi-hitler-parade.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2016/12/28/world/28Taiwan1/28Taiwan1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>A cardboard tank at the Hsinchu Kuang-Fu High School in Hsinchu City, Taiwan.</media:description>
+      <media:credit>EBC, via Associated Press</media:credit>
+      <description>The principal resigned after photographs and images went viral online, and after the unofficial diplomatic missions of Israel and Germany issued letters of protest.</description>
+      <dc:creator>CHRIS HORTON</dc:creator>
+      <pubDate>Tue, 27 Dec 2016 18:02:47 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Holocaust and the Nazi Era</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">World War II (1939-45)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Hitler, Adolf</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Taiwan</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Schindler's List (Movie)</category>
+    </item>
+    <item>
+      <title>Art That&#x2019;s Disposable, but by No Means Throwaway</title>
+      <link>http://www.nytimes.com/2016/12/27/nyregion/ron-barron-art-from-trash.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2016/12/27/nyregion/ron-barron-art-from-trash.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2016/12/27/nyregion/ron-barron-art-from-trash.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2016/12/28/nyregion/28GARBAGEARTIST1/28GARBAGEARTIST1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Ron Barron holding a screw he found on the Lower East Side of Manhattan last week. Mr. Barron, 78, creates art out of trash that he plucks from the streets of New York City.</media:description>
+      <media:credit>Joshua Bright for The New York Times</media:credit>
+      <description>Ron Barron, 78, plucks trash from the streets of New York City and mails it home to Ohio, where he places his finds on a scanner and makes what are essentially large-scale prints.</description>
+      <dc:creator>JAMES BARRON</dc:creator>
+      <pubDate>Wed, 28 Dec 2016 00:01:02 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Art</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Waste Materials and Disposal</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Manhattan (NYC)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Lower East Side (Manhattan, NY)</category>
+    </item>
+    <item>
+      <title>Vera Rubin, 88, Dies; Opened Doors in Astronomy, and for Women</title>
+      <link>http://www.nytimes.com/2016/12/27/science/vera-rubin-astronomist-who-made-the-case-for-dark-matter-dies-at-88.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2016/12/27/science/vera-rubin-astronomist-who-made-the-case-for-dark-matter-dies-at-88.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2016/12/27/science/vera-rubin-astronomist-who-made-the-case-for-dark-matter-dies-at-88.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2016/12/28/us/28rubin-obit-1/28rubin-obit-1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Vera Rubin in the 1970s, when she mapped the distribution of mass in spiral galaxies by measuring how fast they rotated.</media:description>
+      <media:credit>Carnegie Institution of Washington, via Associated Press</media:credit>
+      <description>Dr. Rubin, who was awarded the National Medal of Science in 1993, ushered in the cosmic realization that most of the universe is invisible.</description>
+      <dc:creator>DENNIS OVERBYE</dc:creator>
+      <pubDate>Tue, 27 Dec 2016 23:57:22 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Rubin, Vera (1928-2016)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Space and Astronomy</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Dark Matter (Astronomy)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Deaths (Obituaries)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Stars and Galaxies</category>
+    </item>
+    <item>
+      <title>A New Day for Gay Plays?</title>
+      <link>http://www.nytimes.com/2016/12/27/theater/a-new-day-for-gay-plays.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2016/12/27/theater/a-new-day-for-gay-plays.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2016/12/27/theater/a-new-day-for-gay-plays.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/01/01/arts/01GAYPLAY1/01GAYPLAY1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Front row, from left, Stephanie J. Block, Brandon Uranowitz, Andrew Rannells and Christian Borle; back row, from left, Betsy Wolfe and Tracie Thoms in &#x201C;Falsettos.&#x201D;</media:description>
+      <media:credit>Sara Krulwich/The New York Times</media:credit>
+      <description>Old themes are still explored, but the context has changed.</description>
+      <dc:creator>CHARLES ISHERWOOD</dc:creator>
+      <pubDate>Tue, 27 Dec 2016 23:20:51 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Theater</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Homosexuality and Bisexuality</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Homos, or Everyone in America (Play)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Falsettos (Play)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">The Boys in the Band (Play)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">A Life (Play)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Bright Colors and Bold Patterns (Play)</category>
+    </item>
+    <item>
+      <title>City Kitchen: Small Luxuries for the New Year&#x2019;s Eve Plate</title>
+      <link>http://www.nytimes.com/2016/12/23/dining/caviar-beet-salad-smoked-trout-recipe.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2016/12/23/dining/caviar-beet-salad-smoked-trout-recipe.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2016/12/23/dining/caviar-beet-salad-smoked-trout-recipe.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2016/12/28/dining/28KITCH1/28KITCH1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Smoked trout and beet salad, with trout roe.</media:description>
+      <media:credit>Karsten Moran for The New York Times</media:credit>
+      <description>Humble ingredients, like bright golden beets, can be just as celebratory as caviar and truffles.</description>
+      <dc:creator>DAVID TANIS</dc:creator>
+      <pubDate>Tue, 27 Dec 2016 19:05:15 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Cooking and Cookbooks</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">New Year</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Beets</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Caviar</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_keyword">Smoked Trout</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Trout</category>
+    </item>
+    <item>
+      <title>In the Footsteps of Harry and Sally</title>
+      <link>http://www.nytimes.com/2016/12/24/travel/footsteps-when-harry-met-sally-new-york.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2016/12/24/travel/footsteps-when-harry-met-sally-new-york.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2016/12/24/travel/footsteps-when-harry-met-sally-new-york.html?partner=rss&amp;emc=rss"/>
+      <description>&#x201C;When Harry Met Sally&#x201D; is a New York City holiday classic dressed up as a romance. Here&#x2019;s where to recapture the magic.</description>
+      <dc:creator>NEIL GENZLINGER</dc:creator>
+      <pubDate>Wed, 28 Dec 2016 08:51:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>The Neediest Cases: Giving Up &#x2018;Mostly Everything&#x2019; to Care for His Wife</title>
+      <link>http://www.nytimes.com/2016/12/27/nyregion/neediest-cases-fund-mali-and-senegal.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2016/12/27/nyregion/neediest-cases-fund-mali-and-senegal.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2016/12/27/nyregion/neediest-cases-fund-mali-and-senegal.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2016/12/28/nyregion/28neediesttravare/28neediesttravare-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Abdou Travare and his wife, Ramata Travare, at home in the Bronx. He stopped working in 2013 to care for Mrs. Travare, who has diabetes, heart disease and dementia.</media:description>
+      <media:credit>Michelle V. Agins/The New York Times</media:credit>
+      <description>When Abdou Travare&#x2019;s wife, Ramata, learned she had dementia, he quit his job to be by her side. His savings have dwindled, and he has struggled to pay the rent.</description>
+      <dc:creator>JOHN OTIS</dc:creator>
+      <pubDate>Tue, 27 Dec 2016 16:00:16 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Catholic Charities Archdiocese of New York</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">New York Times Neediest Cases Fund</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Mali</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Senegal</category>
+    </item>
+  </channel>
+</rss>

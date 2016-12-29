@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+    <title>World news | The Guardian</title>
+    <link>https://www.theguardian.com/world</link>
+    <description>Latest World news news, comment and analysis from the Guardian, the world's leading liberal voice</description>
+    <language>en-gb</language>
+    <copyright>Guardian News and Media Limited or its affiliated companies. All rights reserved. 2016</copyright>
+    <pubDate>Wed, 28 Dec 2016 13:34:00 GMT</pubDate>
+    <dc:date>2016-12-28T13:34:00Z</dc:date>
+    <dc:language>en-gb</dc:language>
+    <dc:rights>Guardian News and Media Limited or its affiliated companies. All rights reserved. 2016</dc:rights>
+    <image>
+      <title>The Guardian</title>
+      <url>https://assets.guim.co.uk/images/guardian-logo-rss.c45beb1bafa34b347ac333af2e6fe23f.png</url>
+      <link>https://www.theguardian.com</link>
+    </image>
+    <item>
+      <title>White House races to save Middle East peace process before Trump takes office</title>
+      <link>https://www.theguardian.com/world/2016/dec/27/obama-and-allies-seek-to-isolate-netanyahu-before-trump-takes-office</link>
+      <description>&lt;p&gt;John Kerry to underline outgoing president’s support of two-state solution with speech setting out US vision of Israel-Palestine agreement&lt;/p&gt;&lt;p&gt;John Kerry is due to lay out a US framework for a Palestinian-Israeli agreement as the Obama administration and its international allies scramble to protect what is left of the peace process before Donald Trump takes office.&lt;/p&gt;&lt;p&gt;The US secretary of state will outline the proposals on Wednesday, at a time when US-Israeli relations have reached their lowest point in decades. The government of the Israeli prime minister, Benjamin Netanyahu, has accused Washington of conspiring against it when a UN security council vote on Friday demanded an end to settlement building in the West Bank. &lt;br&gt;&lt;/p&gt; &lt;a href="https://www.theguardian.com/world/2016/dec/27/obama-and-allies-seek-to-isolate-netanyahu-before-trump-takes-office"&gt;Continue reading...&lt;/a&gt;</description>
+      <category domain="https://www.theguardian.com/world/israel">Israel</category>
+      <category domain="https://www.theguardian.com/world/palestinian-territories">Palestinian territories</category>
+      <category domain="https://www.theguardian.com/us-news/us-foreign-policy">US foreign policy</category>
+      <category domain="https://www.theguardian.com/us-news/obama-administration">Obama administration</category>
+      <category domain="https://www.theguardian.com/world/benjamin-netanyahu">Benjamin Netanyahu</category>
+      <category domain="https://www.theguardian.com/us-news/us-news">US news</category>
+      <category domain="https://www.theguardian.com/world/middleeast">Middle East and North Africa</category>
+      <category domain="https://www.theguardian.com/world/world">World news</category>
+      <category domain="https://www.theguardian.com/us-news/donaldtrump">Donald Trump</category>
+      <category domain="https://www.theguardian.com/world/unitednations">United Nations</category>
+      <category domain="https://www.theguardian.com/us-news/barack-obama">Barack Obama</category>
+      <pubDate>Wed, 28 Dec 2016 09:05:45 GMT</pubDate>
+      <guid>https://www.theguardian.com/world/2016/dec/27/obama-and-allies-seek-to-isolate-netanyahu-before-trump-takes-office</guid>
+      <media:content width="140" url="https://i.guim.co.uk/img/media/133bcafc677e46ea798d3b4d8755263c35ea354a/0_0_3300_1981/master/3300.jpg?w=140&amp;q=55&amp;auto=format&amp;usm=12&amp;fit=max&amp;s=1db3f6bd3f6c3e1a6f9c5390f489f0df">
+        <media:credit scheme="urn:ebu">Photograph: Brendan Smialowski/AP</media:credit>
+      </media:content>
+      <media:content width="460" url="https://i.guim.co.uk/img/media/133bcafc677e46ea798d3b4d8755263c35ea354a/0_0_3300_1981/master/3300.jpg?w=460&amp;q=55&amp;auto=format&amp;usm=12&amp;fit=max&amp;s=a9a7d541ce2b41fc26f0fdd01a382248">
+        <media:credit scheme="urn:ebu">Photograph: Brendan Smialowski/AP</media:credit>
+      </media:content>
+      <dc:creator>Julian Borger World affairs editor</dc:creator>
+      <dc:date>2016-12-28T09:05:45Z</dc:date>
+    </item>
+  </channel>
+</rss>
+
