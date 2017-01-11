@@ -9,7 +9,7 @@ app.set('port', (process.env.PORT || 9000));
 var storage = new (require('./storage'))();
 var nxws = new (require('./fetchfeed.js'));
 var types = require('./types');
-var feedDict = require('./feeds.json').local;
+var feedDict = require('./feeds.json').remote;
 var feeds = Object.keys(feedDict).map(function(x) {return feedDict[x]});
 
 function storeItem(err, item) {
@@ -53,7 +53,8 @@ function broadcastArticle(article) {
 storage.setListener(broadcastArticle.bind(this));
 
 function fetchNews() {
-  nxws.fetchSourceFromStream(feeds, fs.createReadStream, storeItem);
+  // nxws.fetchSourceFromStream(feeds, fs.createReadStream, storeItem);
+  nxws.fetchSourceFromStream(feeds, request, storeItem);
   // storage.getTopWords(10).then(x => console.log('top words', x))
 }
 
@@ -64,6 +65,23 @@ http.listen(app.get('port'), function() {
   console.log("NXWS Feeder is running at localhost:" + app.get('port'));
 });
 
+app.use(function(req, res, next) {
+  res.header("Access-Control-Allow-Origin", "*");
+  res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+  next();
+});
+
+app.get('/', function(req, res) {
+  storage.getAll().then(data => res.json(data));
+});
+
+app.get('/items/:tag', function(req, res) {
+  storage.getAllWithTag(req.params.tag).then(data => res.json(data));
+});
+
+app.get('/tags/:count', function(req, res) {
+  storage.getTopWords(req.params.count).then(data => res.json(data));
+});
 
 /* Socket */
 io.on('connection', function(socket) {
