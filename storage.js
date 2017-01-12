@@ -34,7 +34,7 @@ let storage_constants = {
 module.exports = class Storage {
 
 	constructor() {
-		this.store = redis.createClient()
+		this.store = redis.createClient(process.env.REDIS_URL)
 		this.store.on('connect', () => { console.log('Connected') })
 		this.store.on("error", function (err) {
 			console.log(err)
