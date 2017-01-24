@@ -208,9 +208,11 @@ module.exports = class Storage {
 		});
 	}
 
-	getSortedSet(id) {
+	getSortedSet(id, num) {
+		const stopVal = num ? --num : -1;
+
 		return new Promise((resolve, reject) => {
-			this.store.zrange(id, 0, -1, (err, result) => {
+			this.store.zrange(id, 0, stopVal, (err, result) => {
 				if (err) {
 					return reject(err);
 				} else {
@@ -232,8 +234,8 @@ module.exports = class Storage {
 		});
 	}
 
-	getAllWithTag(tag) {
-		return this.getSortedSet(tag)
+	getAllWithTag(tag, num) {
+		return this.getSortedSet(tag, num)
 			.then(idList => {
 				let newsListPromises = [];
 				for (const id of idList) {
@@ -243,7 +245,7 @@ module.exports = class Storage {
 			});
 	}
 
-	getAll() {
-		return this.getAllWithTag(storage_constants.ALL);
+	getAll(num) {
+		return this.getAllWithTag(storage_constants.ALL, num);
 	}
 }

@@ -8,7 +8,6 @@
     , "The Wash. Post": "http://feeds.washingtonpost.com/rss/world"
     , "CityLab": "http://feeds.feedburner.com/TheAtlanticCities"
     , "The New Yorker": "http://www.newyorker.com/feed/everything"
-    , "The Onion": "http://feeds.theonion.com/theonion/daily"
   },
   "local": {
     "Guardian": "guardian_rss.xml",
@@ -16,6 +15,7 @@
     "The New Yorker": "newyorker_rss.xml"
   },
   "unused" :{
+    "The Onion": "http://feeds.theonion.com/theonion/daily",
     "Test": "test_rss.xml"
   }
 }

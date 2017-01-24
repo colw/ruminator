@@ -71,12 +71,20 @@ app.use(function(req, res, next) {
   next();
 });
 
+
+app.use(function(req, res, next) {
+  this.numItems = req.query.n || null;
+  next();
+})
+
 app.get('/', function(req, res) {
-  storage.getAll().then(data => res.json(data));
+  console.log('/', this.numItems);
+  storage.getAll(this.numItems).then(data => res.json(data));
 });
 
 app.get('/items/:tag', function(req, res) {
-  storage.getAllWithTag(req.params.tag).then(data => res.json(data));
+  console.log('/items/:tag', this.numItems);
+  storage.getAllWithTag(req.params.tag, this.numItems).then(data => res.json(data));
 });
 
 app.get('/tags/:count', function(req, res) {
