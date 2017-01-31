@@ -196,6 +196,20 @@ module.exports = class Storage {
 		});
 	}
 
+	getIndexInSortedSet(key, id) {
+		console.log('getIndexInSortedSet', key, id);
+		return new Promise((resolve, reject) => {
+			this.store.zrank(key, id, (err, result) => {
+				if (err) {
+					return reject(err);
+				} else {
+					console.log('result of id', result);
+					return resolve(result);
+				}
+			});
+		});
+	}
+
 	getTopWords(n) {
 		return new Promise((resolve, reject) => {
 			this.store.zrevrange(storage_constants.COUNT, 0, n - 1, (err, result) => {
@@ -208,11 +222,15 @@ module.exports = class Storage {
 		});
 	}
 
-	getSortedSet(id, num) {
-		const stopVal = num ? --num : -1;
+	getSortedSet(id, num, fromIndex) {
+		const startVal = fromIndex || 0;
+		const stopVal = num ? (startVal + num - 1) : -1;
+
+		// console.log(arguments);
+		// console.log('start, stop:', startVal, stopVal);
 
 		return new Promise((resolve, reject) => {
-			this.store.zrange(id, 0, stopVal, (err, result) => {
+			this.store.zrange(id, startVal, stopVal, (err, result) => {
 				if (err) {
 					return reject(err);
 				} else {
@@ -247,5 +265,23 @@ module.exports = class Storage {
 
 	getAll(num) {
 		return this.getAllWithTag(storage_constants.ALL, num);
+	}
+
+	getNAfterAllWithTag(tag, num, afterID) {
+		return this.getIndexInSortedSet(tag, afterID)
+			.then((index) => {
+				return this.getSortedSet(tag, num, index + 1)
+					.then(idList => {
+						let newsListPromises = [];
+						for (const id of idList) {
+							newsListPromises.push(this.getHash(id));
+						}
+						return Promise.all(newsListPromises);
+					});
+			})
+	}
+
+	getNAfterAll(num, afterID) {
+		return this.getNAfterAllWithTag(storage_constants.ALL, num, afterID);
 	}
 }

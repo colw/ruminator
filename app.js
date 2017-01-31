@@ -71,24 +71,49 @@ app.use(function(req, res, next) {
   next();
 });
 
+const DEFAULTS = {
+  NUM_ITEMS: 30,
+  NUM_ITEMS_MORE: 5,
+  NUM_TAGS: 10,
+}
 
 app.use(function(req, res, next) {
-  this.numItems = req.query.n || null;
+  this.numItems = parseInt(req.query.n) || DEFAULTS.NUM_ITEMS;
+  this.oldest = req.query.oldest || null;
   next();
 })
 
 app.get('/', function(req, res) {
-  console.log('/', this.numItems);
-  storage.getAll(this.numItems).then(data => res.json(data));
+  let p = null;
+  if (!this.oldest) {
+    p = storage.getAll(DEFAULTS.NUM_ITEMS);
+  } else {
+    p = storage.getNAfterAll(DEFAULTS.NUM_ITEMS_MORE, this.oldest);
+  }
+  let tw = storage.getTopWords(DEFAULTS.NUM_TAGS);
+  Promise.all([p, tw])
+    .then((data) => {
+      res.json({items: data[0], tags: data[1], currentTag: ''})
+    })
 });
 
 app.get('/items/:tag', function(req, res) {
-  console.log('/items/:tag', this.numItems);
-  storage.getAllWithTag(req.params.tag, this.numItems).then(data => res.json(data));
+  let p = null;
+  if (!this.oldest) {
+    p = storage.getAllWithTag(req.params.tag, DEFAULTS.NUM_ITEMS);
+  } else {
+    p = storage.getNAfterAllWithTag(req.params.tag, DEFAULTS.NUM_ITEMS_MORE, this.oldest);
+  }
+
+  let tw = storage.getTopWords(DEFAULTS.NUM_TAGS);
+  Promise.all([p, tw])
+    .then((data) => {
+      res.json({items: data[0], tags: data[1], currentTag: req.params.tag || ''})
+    })
 });
 
-app.get('/tags/:count', function(req, res) {
-  storage.getTopWords(req.params.count).then(data => res.json(data));
+app.get('/tags', function(req, res) {
+  storage.getTopWords(DEFAULTS.NUM_TAGS).then(data => res.json({tags: data}));
 });
 
 /* Socket */
