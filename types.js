@@ -1,5 +1,23 @@
 "use strict";
 
+const URL = require('url');
+
+function getBaseURL(link) {
+  if (typeof link === "string") {
+    let u = URL.parse(link);
+    return u.protocol + '//' + u.hostname;    
+  }
+  return '';
+}
+
+function getHostname(link) {
+  if (typeof link === "string") {
+    let u = URL.parse(link);
+    return u.hostname;    
+  }
+  return '';
+} 
+
 exports.makeArticle = function(article) {
   // console.log('-', article, '-');
   var newItem = {
@@ -9,10 +27,12 @@ exports.makeArticle = function(article) {
     guid: article.guid,
     link: article.link,
     metatitle: article.meta.title,
-    metalink: article.meta.link
+    metalink: article.meta.link,
+    sitelink: getBaseURL(article.meta.link),
+    sitehost: getHostname(article.meta.link),
   };
 
-  if (newItem.metalink == null)
+  if (newItem.metalink === null)
     newItem.metalink = newItem.link;
 
   if (newItem.date > new Date())
