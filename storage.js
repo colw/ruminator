@@ -131,8 +131,9 @@ module.exports = class Storage {
 
 	createTagsFromItem(item) {
 		const sw = this.inStopWords;
+		const searchText = item.title + '. ' + item.description;
 		return new Promise((resolve, reject) => {
-			wordpos.getNouns(item.title || "", function(result) {
+			wordpos.getNouns(searchText || "", function(result) {
 				const newResult = result.map(x => x.toLowerCase()).filter(x => !sw(x));
 				// console.log('removed n words', result.length - newResult.length);
 				return resolve(newResult);
