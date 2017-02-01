@@ -6,8 +6,12 @@
     , "The NY Times": "http://www.nytimes.com/services/xml/rss/nyt/InternationalHome.xml"
   	, "Aljazeera": "http://www.aljazeera.com/xml/rss/all.xml"
     , "The Wash. Post": "http://feeds.washingtonpost.com/rss/world"
-    , "CityLab": "http://feeds.feedburner.com/TheAtlanticCities"
     , "The New Yorker": "http://www.newyorker.com/feed/everything"
+    , "BBC World News": "http://feeds.bbci.co.uk/news/world/rss.xml"
+    , "Slate": "http://feeds.slate.com/slate"
+    , "NPR": "http://www.npr.org/rss/rss.php"
+    , "Economist": "http://www.economist.com/sections/international/rss.xml"
+    , "Politico": "http://www.politico.com/rss/politics08.xml"
   },
   "local": {
     "Guardian": "guardian_rss.xml",
@@ -15,6 +19,7 @@
     "The New Yorker": "newyorker_rss.xml"
   },
   "unused" :{
+    "CityLab": "http://feeds.feedburner.com/TheAtlanticCities",
     "The Onion": "http://feeds.theonion.com/theonion/daily",
     "Test": "test_rss.xml"
   }

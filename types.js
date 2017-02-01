@@ -19,7 +19,6 @@ function getHostname(link) {
 } 
 
 exports.makeArticle = function(article) {
-  // console.log('-', article, '-');
   var newItem = {
     title: article.title,
     author: article.author,
@@ -31,6 +30,10 @@ exports.makeArticle = function(article) {
     sitelink: getBaseURL(article.meta.link),
     sitehost: getHostname(article.meta.link),
   };
+
+  if (article.image && article.image.url) {
+    newItem.imageUrl = article.image.url;
+  }
 
   if (newItem.metalink === null)
     newItem.metalink = newItem.link;
