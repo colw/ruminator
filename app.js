@@ -58,7 +58,7 @@ function fetchNews() {
   // storage.getTopWords(10).then(x => console.log('top words', x))
 }
 
-setInterval(fetchNews, 10000);
+setInterval(fetchNews, 1000000);
 
 /* Server */
 http.listen(app.get('port'), function() {
