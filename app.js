@@ -59,6 +59,7 @@ function fetchNews() {
 }
 
 setInterval(fetchNews, 1000000);
+fetchNews();
 
 /* Server */
 http.listen(app.get('port'), function() {
