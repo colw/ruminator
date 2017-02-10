@@ -4,11 +4,15 @@ const util = require('util');
 var redis = require("redis"),
 	crypto = require('crypto'),
 	stopwords = require('./dict');
+	// console.log(stopwords);
 	// stopwords = require('./natural/lib/natural/util/stopwords').words;
 
-var natural = require('natural');
-natural.PorterStemmer.attach();
-let tokenizer = new natural.WordTokenizer();
+// stopwords.forEach(x => console.log(x));
+
+const pos = require('pos');
+// var natural = require('natural');
+// natural.PorterStemmer.attach();
+// let tokenizer = new natural.WordTokenizer();
 
 // var WordPOS = require('wordpos');
 // wordpos = new WordPOS({stopwords: true});
@@ -18,13 +22,38 @@ var WordPOS = require('wordpos'),
 // wordpos.isAdjective('fast', console.log);
 
 // console.log("i am waking up to the sounds of chainsaws".tokenizeAndStem());
-// console.log("chainsaws".stem());
 
 // natural.LancasterStemmer.attach();
 // console.log("i am waking up to the sounds of chainsaws".tokenizeAndStem());
-// console.log("chainsaws".stem());
 
-// process.exit();
+function combineTags(acc, curVal, curIndex, arr) {
+	if (curIndex === 0) {
+		return [curVal];
+	}
+
+	let lastElement = acc[acc.length-1];
+	if (lastElement[1] === curVal[1]) {
+		lastElement[0] = lastElement[0] + ' ' + curVal[0];
+		return acc;
+	}
+
+	return acc.concat([curVal]);
+}
+
+const stripTag = (elt) => elt[0];
+// const removePunctuation = (elt) => {
+// 	const w = elt[0];
+// 	const puncs = [',', '.', ];
+// 	return wordpos.isNoun(w);
+// }
+const isTaggedStopWord = (elt) => stopwords.indexOf(elt[0].toLowerCase()) >= 0;
+
+
+// let x = wordpos.getPOS("Times journalists visit a former ISIS stronghold and find it struggling to recover. Residents feel angry and abandoned, and militant attacks have resumed.", (x) => {
+// 	console.log(x)
+// 	process.exit();
+// })
+// // console.log(x);
 
 let storage_constants = {
 	ALL: "*",
@@ -97,47 +126,64 @@ module.exports = class Storage {
 			hash, ...fieldValueZip);
 	}
 
-	breakStringIntoTags(sentence) {
-		var words = [];
-		var re = /([\w+]+)/g;
-		let result = '';
+	// breakStringIntoTags(sentence) {
+	// 	var words = [];
+	// 	var re = /([\w+]+)/g;
+	// 	let result = '';
 
-		return new Promise((resolve, reject) => {
-			wordpos.getNouns(sentence, function(result) {
-				// console.log(result);
-				return resolve(result);
-			});
-		});
-	}
+	// 	return new Promise((resolve, reject) => {
+	// 		wordpos.getNouns(sentence, function(result) {
+	// 			// console.log(result);
+	// 			return resolve(result);
+	// 		});
+	// 	});
+	// }
 
-	breakIntoTags(item) {
-		return this.breakStringIntoTags(item.title).then((tokens) => {
-			let ps = [];
-			for (const word of tokens) {
-				let w = word.toLowerCase();
-				var pr = this._dbAddItemToSortedSet(item, w)
-					.then((z) => {
-						let w2 = word.toLowerCase();
-						// console.log('w', w2);
-						let c = this.DBResolve(this.store.zincrby.bind(this.store), item, storage_constants.COUNT, 1, w2)
-						// console.log('adding', z, ' -- ', pr, w2, item.title, c);
-						return c;
-					});
-				ps.push(pr);
-			}
-			return ps;
-		});
-	}
+	// breakIntoTags(item) {
+	// 	return this.breakStringIntoTags(item.title).then((tokens) => {
+	// 		let ps = [];
+	// 		for (const word of tokens) {
+	// 			let w = word.toLowerCase();
+	// 			var pr = this._dbAddItemToSortedSet(item, w)
+	// 				.then((z) => {
+	// 					let w2 = word.toLowerCase();
+	// 					// console.log('w', w2);
+	// 					let c = this.DBResolve(this.store.zincrby.bind(this.store), item, storage_constants.COUNT, 1, w2)
+	// 					// console.log('adding', z, ' -- ', pr, w2, item.title, c);
+	// 					return c;
+	// 				});
+	// 			ps.push(pr);
+	// 		}
+	// 		return ps;
+	// 	});
+	// }
 
 	createTagsFromItem(item) {
 		const sw = this.inStopWords;
 		const searchText = item.title + '. ' + item.description;
+		// console.log(item.description);
 		return new Promise((resolve, reject) => {
-			wordpos.getNouns(searchText || "", function(result) {
-				const newResult = result.map(x => x.toLowerCase()).filter(x => !sw(x));
-				// console.log('removed n words', result.length - newResult.length);
-				return resolve(newResult);
-			});
+
+			const words = new pos.Lexer().lex(item.title);
+			const tagger = new pos.Tagger();
+			const taggedWords = tagger.tag(words);
+
+			const reducedTaggedWords = taggedWords
+				.reduce(combineTags, [])
+				.filter(x => !isTaggedStopWord(x))
+				.map(x => {
+					// console.log(x)
+					return x;
+				})
+			// console.log(reducedTaggedWords);
+			resolve(reducedTaggedWords.map(stripTag).map(x => x.toLowerCase()));
+
+
+			// wordpos.getNouns(searchText || "", function(result) {
+			// 	const newResult = result.map(x => x.toLowerCase()).filter(x => !sw(x));
+			// 	// console.log('removed n words', result.length - newResult.length);
+			// 	return resolve(newResult);
+			// });
 		});
 	}
 

@@ -1,5 +1,7 @@
 "use strict";
 
+var striptags = require('striptags');
+
 const URL = require('url');
 
 function getBaseURL(link) {
@@ -30,6 +32,10 @@ exports.makeArticle = function(article) {
     sitelink: getBaseURL(article.meta.link),
     sitehost: getHostname(article.meta.link),
   };
+
+  if (article.description) {
+    newItem.description = striptags(article.description);
+  }
 
   if (article.image && article.image.url) {
     newItem.imageUrl = article.image.url;

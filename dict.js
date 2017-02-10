@@ -13,6 +13,32 @@ var words = [
     'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', '$', '1',
     '2', '3', '4', '5', '6', '7', '8', '9', '0', '_'];
 
+var punctuation = [
+    ".",
+    ",",
+    "/",
+    "#",
+    "!",
+    "$",
+    "%",
+    "^",
+    "&",
+    "*",
+    ";",
+    ":",
+    "{",
+    "}",
+    "=",
+    "-",
+    "_",
+    "`",
+    "~",
+    "(",
+    ")",
+    "?",
+    "'",
+]
+
 var common_words = [
     "the",
     "be",
@@ -120,4 +146,4 @@ var common_words = [
     "off",
 ];
 
-module.exports = words.concat(common_words);
+module.exports = words.concat(common_words).concat(punctuation);
