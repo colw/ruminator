@@ -1,14 +1,32 @@
 # News Aggregator
 
-A simple news aggregator in the browser.
+A simple news aggregator service.
 
-News feeds are fetched periodically and if the date of the article is a recent one, it is sent to the users.
+News feeds are fetched periodically and stored in a Redis database.
 
-Additionally, as an experiment, the most popular words are counted and displayed.
+Each item is also tagged using Natural language processing. This is a work in process.
 
-- [Node.js](http://nodejs.org) runs the server and periodically checks and parses feeds.
+## Usage
+
+The API is simple:
+
+Returns the first 30 articles over all tags, the top ten tags, and the current tag.
+
+    /
+
+Returns the first 30 articles of 'tag', the top ten tags, and the current tag.
+
+    /items/tag
+
+Returns the top ten tags.
+
+    /tags
+
+## Dependencies
 - Thanks to [Feed Parser](https://github.com/danmactough/node-feedparser) for doing its job really well.
-- [Socket.io](http://socket.io) is used for communicating with the browser.
+- [Socket.io](http://socket.io) is used for communicating with the browser [Currently Unused].
+- [Pos-js](https://github.com/dariusk/pos-js) is used to parse the titles for classification.
+Basic lexing and tagging, based on Eric Brill's part of speech tagger.
 
 ## Install and Run
 
