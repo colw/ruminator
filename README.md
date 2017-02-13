@@ -4,7 +4,7 @@ A simple news aggregator service.
 
 News feeds are fetched periodically and stored in a Redis database.
 
-Each item is also tagged using Natural language processing. This is a work in process.
+Each item is also tagged using Natural language processing. This is a work in progress.
 
 ## Usage
 
