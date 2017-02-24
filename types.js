@@ -24,7 +24,7 @@ exports.makeArticle = function(article) {
   var newItem = {
     title: article.title,
     author: article.author,
-    date: new Date(article.date),
+    date: article.date ? new Date(article.date) : new Date(),
     guid: article.guid,
     link: article.link,
     metatitle: article.meta.title,
